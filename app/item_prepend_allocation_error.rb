@@ -9,6 +9,6 @@ class Item
 
   def update(args)
     puts "Item#update"
-    args.outputs.debug << args.gtk.framerate_diagnostics_primitives
+    #args.outputs.debug << args.gtk.framerate_diagnostics_primitives
   end
 end
